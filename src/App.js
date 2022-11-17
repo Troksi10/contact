@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Contact from "./components/Contact";
+
+//CHALLENGE: Make the code in App.jsx work.
+//The final app should have a single contact
+//with fName, lName and email.
+
+//HINT: You'll need to apply the following things you learnt:
+//1. Using JS Objects with state.
+//2. Making use of previous state when changing state.
+//3. Working with forms in React.
+//4. Handing events
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Contact />
     </div>
   );
 }
